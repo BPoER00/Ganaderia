@@ -33,6 +33,8 @@ public class Animal implements Serializable, Parcelable {
         estado = in.readInt();
     }
 
+    public Animal(){}
+
     public static final Creator<Animal> CREATOR = new Creator<Animal>() {
         @Override
         public Animal createFromParcel(Parcel in) {

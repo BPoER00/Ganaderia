@@ -13,6 +13,14 @@
         <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registro_animales.xml" value="0.225" />
         <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registro_corral.xml" value="0.22" />
         <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registro_finca.xml" value="0.225" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registro_rango.xml" value="0.225" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registros_direcciones.xml" value="0.22" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/activity_registros_razas.xml" value="0.225" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/fragment_consulta_animal.xml" value="0.33" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/fragment_consulta_corral.xml" value="0.225" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/fragment_consulta_finca.xml" value="0.2109375" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/item_registros_animales.xml" value="0.5" />
+        <entry key="..\:/Estudiar/Admon/Proyecto/App/Ganaderia/app/src/main/res/layout/item_registros_finca.xml" value="0.225" />
         <entry key="..\:/Proyectos/appaguafrescaventasrutero/Ganaderia/app/src/main/res/xml/network_security_config.xml" value="0.225" />
       </map>
     </option>
