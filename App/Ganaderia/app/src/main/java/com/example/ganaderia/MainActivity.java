@@ -13,6 +13,9 @@ import com.example.ganaderia.viewModel.activity.Activity_consulta_animales;
 import com.example.ganaderia.viewModel.activity.Activity_registro_animales;
 import com.example.ganaderia.viewModel.activity.Activity_registro_corral;
 import com.example.ganaderia.viewModel.activity.Activity_registro_finca;
+import com.example.ganaderia.viewModel.activity.Activity_registro_rango;
+import com.example.ganaderia.viewModel.activity.Activity_registros_direcciones;
+import com.example.ganaderia.viewModel.activity.Activity_registros_razas;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,14 +58,20 @@ public class MainActivity extends AppCompatActivity {
         //direccion
         this.Direccion = findViewById(R.id.btn_img_direcciones);
         this.Direccion_text = findViewById(R.id.btn_direcciones);
+        this.Direccion.setOnClickListener(v -> irDirecciones());
+        this.Direccion_text.setOnClickListener(v -> irDirecciones());
 
         //raza
         this.Raza = findViewById(R.id.btn_img_raza);
         this.Raza_text = findViewById(R.id.btn_raza);
+        this.Raza.setOnClickListener(v -> irRaza());
+        this.Raza_text.setOnClickListener(v -> irRaza());
 
         //rango
         this.Rango = findViewById(R.id.btn_img_rango);
         this.Rango_text = findViewById(R.id.btn_rango);
+        this.Rango.setOnClickListener(v -> irRango());
+        this.Rango_text.setOnClickListener(v -> irRango());
     }
 
     private void irConsultar()
@@ -89,6 +98,27 @@ public class MainActivity extends AppCompatActivity {
     private void irCorral()
     {
         Intent intent = new Intent(MainActivity.this, Activity_registro_corral.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void irDirecciones()
+    {
+        Intent intent = new Intent(MainActivity.this, Activity_registros_direcciones.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void irRango()
+    {
+        Intent intent = new Intent(MainActivity.this, Activity_registro_rango.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void irRaza()
+    {
+        Intent intent = new Intent(MainActivity.this, Activity_registros_razas.class);
         startActivity(intent);
         finish();
     }

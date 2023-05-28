@@ -33,6 +33,10 @@ public class Finca implements Serializable, Parcelable {
         estado = in.readInt();
     }
 
+    public Finca() {
+
+    }
+
     public static final Creator<Finca> CREATOR = new Creator<Finca>() {
         @Override
         public Finca createFromParcel(Parcel in) {

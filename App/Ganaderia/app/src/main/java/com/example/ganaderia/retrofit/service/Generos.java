@@ -15,8 +15,7 @@ public interface Generos {
 
     @Headers({"Accept: application/json; Content-Type: application/json"})
     @GET("Generos")
-    Call<Reply<List<Generos>>> obtenerGeneros(
-    ) throws Exception;
+    Call<Reply<List<Generos>>> obtenerGeneros() throws Exception;
 
     @Headers({"Accept: application/json; Content-Type: application/json"})
     @POST("Generos")

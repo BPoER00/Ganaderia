@@ -18,6 +18,15 @@
         android:theme="@style/Theme.Design.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".viewModel.activity.Activity_registro_rango"
+            android:exported="false" />
+        <activity
+            android:name=".viewModel.activity.Activity_registros_razas"
+            android:exported="false" />
+        <activity
+            android:name=".viewModel.activity.Activity_registros_direcciones"
+            android:exported="false" />
+        <activity
             android:name=".viewModel.activity.Activity_registro_corral"
             android:exported="false" />
         <activity
