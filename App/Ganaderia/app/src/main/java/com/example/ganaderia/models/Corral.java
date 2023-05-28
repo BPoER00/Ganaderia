@@ -54,6 +54,10 @@ public class Corral implements Serializable, Parcelable {
         estado = in.readInt();
     }
 
+    public Corral()
+    {}
+
+
     public static final Creator<Corral> CREATOR = new Creator<Corral>() {
         @Override
         public Corral createFromParcel(Parcel in) {
